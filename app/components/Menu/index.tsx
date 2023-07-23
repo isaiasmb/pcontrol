@@ -1,9 +1,9 @@
-"use client";
+'use client';
 
-import { AddCircle, DeleteCircle } from "iconoir-react";
-import { useFirstStore } from "../../store/firstStore";
+import { AddCircle, DeleteCircle } from 'iconoir-react';
+import { useFirstStore } from '../../store/firstStore';
 
-import Button from "../Button";
+import Button from '../Button';
 
 const Menu = () => {
   const { increasePopulation, removeAllBears } = useFirstStore(

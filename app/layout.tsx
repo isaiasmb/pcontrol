@@ -1,21 +1,20 @@
-import './globals.css'
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
+import './globals.css';
+import { localPoppins } from 'fonts';
 
 export const metadata = {
   title: 'NextJS Boilerplate',
-  description: 'A simple project starter to work with TypeScript, React, NextJS, Tailwind, Zustand, Jest and Testing library',
-}
+  description:
+    'A simple project starter to work with TypeScript, React, NextJS, Tailwind, Zustand, Jest and Testing library'
+};
 
 export default function RootLayout({
-  children,
+  children
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={localPoppins.className}>{children}</body>
     </html>
-  )
+  );
 }

@@ -1,6 +1,6 @@
-"use client";
+'use client';
 
-import { useFirstStore } from "../../store/firstStore";
+import { useFirstStore } from 'store/firstStore';
 
 const Body = () => {
   const bears = useFirstStore((state) => state.bears);
