@@ -23,7 +23,8 @@
     "paths": {
       "components/*": ["app/components/*"],
       "styles/*": ["app/styles/*"],
-      "utils/*": ["app/utils/*"]
+      "utils/*": ["app/utils/*"],
+      "store/*": ["app/store/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],

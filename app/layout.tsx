@@ -1,5 +1,5 @@
 import './globals.css';
-import { localPoppins } from 'fonts';
+import { localPoppins } from './fonts';
 
 export const metadata = {
   title: 'NextJS Boilerplate',

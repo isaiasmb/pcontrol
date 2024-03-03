@@ -1,7 +1,8 @@
 'use client';
 
 import { AddCircle, DeleteCircle } from 'iconoir-react';
-import { useFirstStore } from '../../store/firstStore';
+
+import { useFirstStore } from 'store/firstStore';
 
 import Button from '../Button';
 
