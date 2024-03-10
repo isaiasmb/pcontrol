@@ -2,5 +2,29 @@
   "editor.formatOnSave": false,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
-  }
+  },
+  "terminal.integrated.defaultProfile.osx": "fish",
+    	"terminal.integrated.profiles.osx": {
+            "bash": {
+                "path": "bash",
+                "args": ["-l"],
+                "icon": "terminal-bash"
+            },
+            "zsh": {
+                "path": "zsh",
+                "args": ["-l"]
+            },
+            "fish": {
+                "path": "/usr/local/bin/fish",
+                "args": ["-l"]
+            },
+            "tmux": {
+                "path": "tmux",
+                "icon": "terminal-tmux"
+            },
+            "pwsh": {
+                "path": "pwsh",
+                "icon": "terminal-powershell"
+            }
+    	}
 }
