@@ -1,4 +1,4 @@
-import { create } from "zustand";
+import { create } from 'zustand';
 
 type FirstStoreState = {
   bears: number;
@@ -9,5 +9,5 @@ type FirstStoreState = {
 export const useFirstStore = create<FirstStoreState>((set) => ({
   bears: 0,
   increasePopulation: () => set((state) => ({ bears: state.bears + 1 })),
-  removeAllBears: () => set({ bears: 0 }),
+  removeAllBears: () => set({ bears: 0 })
 }));
